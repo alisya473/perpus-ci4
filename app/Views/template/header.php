@@ -9,23 +9,21 @@
 
 <body>
 
-<div class="navbar">
+<nav class="navbar">
 
     <div class="logo">
-        <a href="<?= base_url('/') ?>">
-            Perpustakaan
-        </a>
+        <a href="<?= base_url('/') ?>">Perpustakaan</a>
     </div>
 
-    <div>
-        <a href="<?= base_url('/') ?>">Dashboard</a>
-        <a href="<?= base_url('anggota') ?>">Anggota</a>
-        <a href="<?= base_url('buku') ?>">Buku</a>
-        <a href="<?= base_url('peminjaman') ?>">Peminjaman</a>
-        <a href="<?= base_url('pengembalian') ?>">Pengembalian</a>
-        <a href="<?= base_url('laporan') ?>">Laporan</a>
+    <div class="menu">
+        <a href="<?= base_url('/dashboard') ?>">Dashboard</a>
+        <a href="<?= base_url('/anggota') ?>">Anggota</a>
+        <a href="<?= base_url('/buku') ?>">Buku</a>
+        <a href="<?= base_url('/peminjaman') ?>">Peminjaman</a>
+        <a href="<?= base_url('/pengembalian') ?>">Pengembalian</a>
+        <a href="<?= base_url('/laporan') ?>">Laporan</a>
     </div>
 
-</div>
+</nav>
 
-<div class="container">
+<main class="container">
